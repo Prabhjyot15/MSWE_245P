@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #ADD8E6;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: #191970;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ADD8E6;
+  padding: 10px;
+  text-align: center;
+  color: #191970;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Summer Internships</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a target="_blank" href="https://amazon.jobs/content/en/career-programs/student-programs">Amazon</a></li>
+      <li><a target="_blank" href="https://www.cisco.com/c/en/us/about/careers.html">Cisco</a></li>
+      <li><a target="_blank" href="https://www.ibm.com/careers/us-en/early-career/internship/">IBM</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Amazon</h1>
+    <p>Amazon.com, Inc. is an American multinational technology company focusing on e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence.</p>
+  </article>
+  <article>
+    <h1>Cisco</h1>
+    <p>Cisco Systems, Inc., commonly known as Cisco, is an American-based multinational digital communications technology conglomerate corporation headquartered in San Jose, California.</p>
+  </article>
+  <article>
+    <h1>IBM</h1>
+    <p>For more than a century, IBM has been a global technology innovator, leading advances in AI, automation and hybrid cloud solutions</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
