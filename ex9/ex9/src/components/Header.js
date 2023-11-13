@@ -5,18 +5,17 @@ function Header() {
   return (
     <>
       <div className="header">
-        <a href="#default" className="logo" style={{ marginLeft : 150  }}>
-          CompanyLogo
+        <a href="#default" className="logo" style={{ marginLeft: 150 }}>
+          Crack Summer Internship 2024
         </a>
         <div className="headerRight">
 
- <Link to="/">
-          <a className="">Home</a>  
-            </Link>
-            <Link to="exampledataview">
-          <a className="">Contact</a>  
-            </Link>
-        <Link to="exampledataview"><a className="">About</a> </Link> 
+          <Link to="/">
+            <a className="">Home</a>
+          </Link>
+          <Link to="exampledataview">
+            <a className="">Contact</a>
+          </Link>
           {/* <a className="active" href="#home">
             View
           </a>

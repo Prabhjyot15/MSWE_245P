@@ -10,6 +10,8 @@ import Sidebar from "./components/Sidebar";
 import LandingView from "./components/LandingView";
 import Footer from "./components/Footer";
 import SecondView from "./components/SecondView";
+import About from "./components/About";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route index element={<LandingView />} />
           <Route path="exampledataview" element={<SecondView />}></Route>
           <Route path="exampledataview" element={<SecondView />}></Route>
+          <Route path="about" element={<About />}></Route>
+          <Route path="services" element={<Services />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
