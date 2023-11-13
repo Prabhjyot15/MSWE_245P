@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>HTML5 Layout</title>
+    <title>Advanced HTML & CSS - Exercise 3</title>
     <style type="text/css">
         header,
         section,
@@ -16,6 +16,7 @@
         }
 
         body {
+            background-color: #F0F8FF;
             color: #666666;
             font-family: times, serif;
             line-height: 1.4em;
@@ -29,7 +30,7 @@
 
         header {
             height: 160px;
-            background-image: url(images/header.jpg);
+            /* background-image: url(images/header.jpg); */
         }
 
         nav,
@@ -141,13 +142,14 @@
         }
 
         footer {
-            font-size: 80%;
-            padding: 7px 0px 0px 20px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            padding-bottom: 20px;
+            width: 100%;
+            text-align: center;
         }
     </style>
-    <!--[if lt IE 9]>
- <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- <![endif]-->
 </head>
 
 <body>
@@ -170,7 +172,7 @@
                     <figcaption>Cracking the Coding Interview</figcaption>
                 </figure>
                 <hgroup>
-                    <h2>Cracking the Technical Interview</h2>
+                    <h2 style="color: #191970;">Cracking the Technical Interview</h2>
                     <h3>10-weeks course in ICS</h3>
                 </hgroup>
                 <p>A 10-weeks course that walks over the fundamentals of Programming Languages, Databases and
@@ -184,10 +186,21 @@
                     <figcaption>Java Fundamentals</figcaption>
                 </figure>
                 <hgroup>
-                    <h2>Java Masterclass</h2>
+                    <h2 style="color: #191970;">Java Masterclass</h2>
                     <h3>5 days workshop</h3>
                 </hgroup>
-                <p>An intensive 5 day workshop to build applications using Java, Spring Boot</p>
+                <p>An intensive 5 days workshop to build applications using Java, Spring Boot</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="C:\Users\Prabhjyot\Desktop\img2.PNG" width="280px" alt="Teriyaki sauce" />
+                    <figcaption>Angular Workshop</figcaption>
+                </figure>
+                <hgroup>
+                    <h2 style="color: #191970;">Angular Beginners Class</h2>
+                    <h3>1 day workshop</h3>
+                </hgroup>
+                <p>An intensive 1 day workshop that covers Angular and Typescript Fundamentals.</p>
             </article>
         </section>
         <aside>
@@ -210,7 +223,11 @@
                 </section>
         </aside>
         </div>
-    </div><!-- .wrapper -->
+    </div>
+    <footer>
+        <p style="color: #191970; font-size: large;">Prabhjyot Kaur Bamrah - MSWE 2024</p>
+        <a href="https://github.com/Prabhjyot15/MSWE_245P"> GitHub Url</a>
+      </footer>    
 </body>
 
 </html>
