@@ -7,7 +7,7 @@ class Particle {
         this.y = y;
     }
 
-    // update the size of the element we render
+    // update the size of the element we render randomly
     update() {
         this.x += random(-5, 5);
         this.y += random(-5, 5);
@@ -18,6 +18,6 @@ class Particle {
     show() {
         stroke(255);
         strokeWeight(25);
-        point(this.x, this.y);
+        point(this.x, this.y); //draws circle
     }
 }
