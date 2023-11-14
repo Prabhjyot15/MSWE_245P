@@ -5,7 +5,7 @@ const ResearchComp = (props) =>{
 console.log(props);
     return(
         <>
-    <div>
+    <div style={{marginBottom:"20px"}}>
         <h4>
         {name}
         </h4>

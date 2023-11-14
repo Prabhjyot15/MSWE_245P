@@ -5,6 +5,9 @@ import Sidebar from './components/Sidebar';
 import FullTimeView from './components/FullTimeView';
 import PartTimeView from './components/PartTimeView';
 import OnlineBook from './components/OnlineBook';
+import Footer from './components/Footer';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
       <Route path="/onlineBooks" element={<OnlineBook />}>
       </Route>
     </Routes>
+    <Footer />
   </BrowserRouter>
       {/* <BrowserRouter>
         <Header />

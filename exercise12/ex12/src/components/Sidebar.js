@@ -5,9 +5,7 @@ function Sidebar() {
     return (
         <>
             <div className="sidenav">
-                <a href="#about">About Us</a>
-                <a href="#services">Internship Opportunities</a>
-                <a href="#services">Research Opportunities</a>
+                <a target="_blank" href="https://www.indeed.com/jobs?q=2024+Summer+Internships&from=mobRdr&utm_source=%2Fm%2F&utm_medium=redir&utm_campaign=dt">Internship Opportunities</a>
                 <a href="#contact">Contact Us</a>
             </div>
 
