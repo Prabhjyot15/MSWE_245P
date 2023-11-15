@@ -1,0 +1,7 @@
+Environment description
+
+Browser : Chrome 119 
+Windows 11
+Installed RAM 16GB
+64-bit operating system, x64-based processor
+IDE : VSCode
